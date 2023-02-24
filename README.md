@@ -1,1 +1,0 @@
-# spaceBattle game implementation
