@@ -1,4 +1,5 @@
 
+//define USS assembly and alien ships
 const ussAssembly = {
   name: "USS Assembly",
   hull: 20,
@@ -33,7 +34,7 @@ function attack(attacker, defender) {
       console.log(`The ${defender.name} has been destroyed!`);
       currentShipIndex++;
       if (currentShipIndex >= numAlienShips) {
-        console.log("YOU WON!");
+        console.log("YOU WON AND SAVED THE WORLD FROM ETERNAL DARKNESS!");
         gameOver = true;
       }
     }
@@ -43,7 +44,7 @@ function attack(attacker, defender) {
 }
 
 // Start the game
-console.log("The aliens have officially attacked us");
+console.log("The aliens have officially attacked us. Only AMERICA can save the world!");
 
 let continueGame = true;
 
